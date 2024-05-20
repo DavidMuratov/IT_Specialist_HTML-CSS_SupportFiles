@@ -24,7 +24,8 @@ figcaption {
     font-weight:bold;
 }
 .leftindent{
-    text-ident: 5em;
+    /* text-ident: 5em; */
+    padding-left: 5em;
 }
 #sidenote {
     background-color: #DDDDDD;
