@@ -1,6 +1,6 @@
 ﻿body {
     font-family:'Segoe UI', Tahoma, sans-serif;
-    background-color: #f7d2aa
+    background-color: #f7d2aa;
 }
 p {
     color: navy;
@@ -28,7 +28,7 @@ figcaption {
 }
 #sidenote {
     background-color: #333333;
-    color: #333333;
+    color: #f7d2aa;
     display:inline;
     /*border-color:navy;
     border-style:dashed;
