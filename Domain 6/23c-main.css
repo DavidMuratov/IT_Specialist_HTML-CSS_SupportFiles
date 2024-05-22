@@ -1,5 +1,4 @@
-﻿body
-{
+﻿body {
     font-family:"Segoe UI",Tahoma,sans-serif;
     background-color:#fab66b;
 }
@@ -21,6 +20,7 @@ figcaption {
 a:hover {
     text-decoration:underline;
     font-weight:bold;
+    font-family:'Palatino Linotype', 'Times New Roman', serif;
 }
 .sale {
     font-weight:bold;
