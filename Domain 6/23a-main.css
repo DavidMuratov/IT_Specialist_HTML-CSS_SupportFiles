@@ -1,5 +1,4 @@
-﻿body
-{
+﻿body {
     font-family:"Segoe UI",Tahoma,sans-serif;
     background-color:#fab66b;
 }
@@ -15,6 +14,11 @@ a:hover {
 }
 .sale {
     font-weight:bold;
+    background-color:aqua;
+}
+figcaption {
+    color: navy;
+     font-weight:bold;
     background-color:aqua;
 }
 #sidenote {
