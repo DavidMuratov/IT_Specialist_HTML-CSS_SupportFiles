@@ -4,17 +4,16 @@ html {
 }
 body{
   background: #41729F;;
-  color: #ffffff;
+  color: whitesmoke;
 }
 /* Class Selectors*/
-
-
-
-/* ID Selectors*/
-#heading{
+.heading{
   text-align: center;
   color: aliceblue;
 }
+
+
+/* ID Selectors*/
 
 
 /* Div's */
@@ -25,6 +24,7 @@ body{
   border: 3px solid #233c76;
   font-family: Georgia;
   height: 150px;
+  overflow: hidden;
 }
 
 .navBar{
@@ -34,6 +34,7 @@ body{
   border: 3px solid #233c76;
   font-family: Georgia;
   height: 150px;
+  overflow-y:scroll;
 }
 
 .container{
@@ -43,6 +44,7 @@ body{
   border: 3px solid #233c76;
   font-family: Georgia;
   height: 1000px;
+  overflow: hidden;
 }
 
 .profile{
@@ -54,6 +56,7 @@ body{
   font-family: Georgia;
   height: 230px;
   width: 250px;
+  overflow: hidden;
 }
 
 .summaries{
@@ -64,11 +67,12 @@ body{
   border: 3px #233c76 solid;
   font-family: Georgia;
   height: 500px;
-  width: 80%
+  width: 80%;
+  overflow: hidden;
 }
 
 
-/* Horizontal Nav Bar */
+/* Nav Bar */
 ul {
   list-style-type: none;
   margin: 0;
@@ -77,8 +81,45 @@ ul {
 }
 
 li{
-  display: inline;
   float: left;
+}
+
+li a, .dropBtn {
+  display: inline-block;
+  text-align: center;
+  padding: 12px 14px;
+}
+
+li a:hover, .dropDown:hover .dropBtn{
+  background-color: #a9cbea;
+}
+
+li.dropdown{
+  display: inline-block;
+}
+
+.dropDown-content{
+  display: none;
+  position: absolute; 
+  background: #233c76;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(1, 0, 1, 0.3);
+  z-index: 1;
+}
+
+.dropDown-content a{
+  color: whitesmoke;
+  display: block;
+  text-align: left;
+}
+
+.dropDown-content a:hover{
+  background-color: #345093;
+  color: whitesmoke
+}
+
+.dropDown:hover .dropDown-content{
+  display: block;
 }
 
 a{
@@ -90,8 +131,4 @@ a{
   background-color: #538ec6;
   border: 3px #233c76 solid;
   margin: 5px;
-}
-
-a:hover{
-  background-color: #a9cbea;
 }
