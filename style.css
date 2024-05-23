@@ -6,12 +6,18 @@ body{
   background: #41729F;;
   color: #ffffff;
 }
+/* Class Selectors*/
 
+
+
+/* ID Selectors*/
 #heading{
   text-align: center;
   color: aliceblue;
 }
 
+
+/* Div's */
 .banner{
   background-color: #274472;
   margin: 15px;
@@ -19,4 +25,73 @@ body{
   border: 3px solid #233c76;
   font-family: Georgia;
   height: 150px;
+}
+
+.navBar{
+  background-color: #274472;
+  margin: 15px;
+  padding: 10px;
+  border: 3px solid #233c76;
+  font-family: Georgia;
+  height: 150px;
+}
+
+.info{
+  background-color: #274472;
+  margin: 15px;
+  padding: 10px;
+  border: 3px solid #233c76;
+  font-family: Georgia;
+  height: 1000px;
+}
+
+.profile{
+  float: left;
+  background-color: #538ec6;
+  margin: 15px;
+  padding: 10px;
+  border: 3px #233c76 solid;
+  font-family: Georgia;
+  height: 230px;
+  width: 250px;
+}
+
+.summaries{
+  float: right;
+  background-color: #4374a3;
+  margin: 15px;
+  padding: 10px;
+  border: 3px #233c76 solid;
+  font-family: Georgia;
+  height: 500px;
+  width: 80%
+}
+
+
+/* Horizontal Nav Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  row-gap: 5px;
+}
+
+li{
+  display: inline;
+  float: left;
+}
+
+a{
+  color: whitesmoke;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  background-color: #538ec6;
+  border: 3px #233c76 solid;
+  margin: 5px;
+}
+
+a:hover{
+  background-color: #a9cbea;
 }
