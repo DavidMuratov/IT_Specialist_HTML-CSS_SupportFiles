@@ -37,6 +37,10 @@ p {
 .floatR{
   float: right;
 }
+
+.alignLeft{
+  text-align: left;
+}
 /* ID Selectors*/
 
 #profileHeading{
