@@ -112,6 +112,8 @@ ul {
   margin: 0;
   padding: 0;
   row-gap: 5px;
+  display: flex;
+  justify-content: center;
 }
 
 li{
@@ -130,6 +132,7 @@ li a:hover, .dropDown:hover .dropBtn{
 
 li.dropdown{
   display: inline-block;
+  margin: 0 auto;
 }
 
 .dropDown-content{
@@ -164,5 +167,5 @@ a{
   padding: 8px;
   background-color: #538ec6;
   border: 3px #233c76 solid;
-  margin: 5px;
+  margin: 2px;
 }
