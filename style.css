@@ -6,6 +6,18 @@ body{
   background: #41729F;;
   color: whitesmoke;
 }
+
+/* Tag Selectors*/
+
+h3{
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+}
+
+
 /* Class Selectors*/
 .heading{
   text-align: center;
@@ -14,6 +26,16 @@ body{
 
 
 /* ID Selectors*/
+
+#profileHeading{
+  text-align: center;
+}
+
+#avatar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 /* Div's */
@@ -43,8 +65,9 @@ body{
   padding: 10px;
   border: 3px solid #233c76;
   font-family: Georgia;
-  height: 1000px;
+  height: 1500px;
   overflow: hidden;
+  text-align: center;
 }
 
 .profile{
@@ -66,7 +89,7 @@ body{
   padding: 10px;
   border: 3px #233c76 solid;
   font-family: Georgia;
-  height: 800px;
+  height: 1100px;
   width: 65%;
   overflow: hidden;
 }
