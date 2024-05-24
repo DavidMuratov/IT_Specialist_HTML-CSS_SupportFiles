@@ -30,10 +30,13 @@ p {
   margin-right: auto;
 }
 
-.float{
+.floatL{
   float: left;
 }
 
+.floatR{
+  float: right;
+}
 /* ID Selectors*/
 
 #profileHeading{
