@@ -1,43 +1,175 @@
-ul{
-  list-style-type:none
-  margin:0;
-  padding:0;
-  overflow:hidden;
-  background-color:#777;
+html {
+  height: 100%;
+  width: 100%;
 }
+body{
+  background: #41729F;;
+  color: whitesmoke;
+}
+
+/* Tag Selectors*/
+
+h3{
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+/* Class Selectors*/
+.heading{
+  text-align: center;
+  color: aliceblue;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.floatL{
+  float: left;
+}
+
+.floatR{
+  float: right;
+}
+
+.alignLeft{
+  text-align: left;
+}
+/* ID Selectors*/
+
+#profileHeading{
+  text-align: center;
+}
+
+#profilePic{
+  border: 2px solid black;
+  background-color: #4374a3;
+}
+
+
+/* Div's */
+.banner{
+  background-color: #274472;
+  margin: 15px;
+  padding: 10px;
+  border: 3px solid #233c76;
+  font-family: Georgia;
+  height: 150px;
+  overflow: hidden;
+}
+
+.navBar{
+  background-color: #274472;
+  margin: 15px;
+  padding: 10px;
+  border: 3px solid #233c76;
+  font-family: Georgia;
+  height: 60px;
+  overflow: hidden;
+}
+
+.container{
+  background-color: #274472;
+  margin: 15px;
+  padding: 10px;
+  border: 3px solid #233c76;
+  font-family: Georgia;
+  height: 1500px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.profile{
+  float: left;
+  background-color: #538ec6;
+  margin: 15px;
+  padding: 10px;
+  border: 3px #233c76 solid;
+  font-family: Georgia;
+  height: 450px;
+  width: 22%;
+  overflow: hidden;
+}
+
+.summaries{
+  float: right;
+  background-color: #4374a3;
+  margin: 15px;
+  padding: 10px;
+  border: 3px #233c76 solid;
+  font-family: Georgia;
+  height: 1500px;
+  width: 65%;
+  overflow: hidden;
+}
+
+
+/* Nav Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  row-gap: 5px;
+  display: flex;
+  justify-content: center;
+}
+
 li{
-    float:left;
+  float: left;
 }
-li a, .dropBtn{
+
+li a, .dropBtn {
   display: inline-block;
-  color: pink;
-  text-align:center;
+  text-align: center;
   padding: 12px 14px;
 }
-li a:hover, .dropDown:hover .DroptBtn {
-  background-color: red;
+
+li a:hover, .dropDown:hover .dropBtn{
+  background-color: #a9cbea;
 }
-li.dropDowm{
-  display:inline-block;
+
+li.dropdown{
+  display: inline-block;
+  margin: 0 auto;
 }
+
 .dropDown-content{
-  display:none;
-  position:absolute;
-  background-color:#f9f9f9;
-  min-width:160px;
-  box-shadow: 0px 8px 16px 0 px rgba(1,0,1,0.3
-  z-index:1;
+  display: none;
+  position: absolute; 
+  background: #233c76;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(1, 0, 1, 0.3);
+  z-index: 1;
 }
 
 .dropDown-content a{
-  color:black;
-  display:block;
-  text-align:left;
+  color: whitesmoke;
+  display: block;
+  text-align: left;
 }
+
 .dropDown-content a:hover{
-  background-color:#f1f2f1;
-  color:pink;
+  background-color: #345093;
+  color: whitesmoke
 }
+
 .dropDown:hover .dropDown-content{
-  display:block;
+  display: block;
+}
+
+a{
+  color: whitesmoke;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  background-color: #538ec6;
+  border: 3px #233c76 solid;
+  margin: 2px;
 }
