@@ -21,7 +21,7 @@ p {
 /* Class Selectors*/
 .heading{
   text-align: center;
-  color: aliceblue;
+  color: blue;
 }
 
 .center{
@@ -49,7 +49,7 @@ p {
 
 #profilePic{
   border: 2px solid black;
-  background-color: #4374a3;
+  background-color: #FFD700;
 }
 
 
