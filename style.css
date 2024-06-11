@@ -1,1 +1,43 @@
+ul{
+  list-style-type:none
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#00FF7F;
+}
+li{
+  float:left;
+}
+li a, ,dropBtn{
+  display: inline-block;
+  color: orange;
+  text-align:center;
+  padding: 12px 14px;
+}
+li a:hover, ,dropDown:hover ,DropBtn {
+  background-color: red;
+}
+li,dropDown{
+  display:inline-block;
+}
+.dropDown-content:{
+  display:none;
+  position:absolute;
+  background-color:#87CEEB;
+  min-width:160px;
+  box-shadow: opx 8px 16px 0 px rgba(1,0,1,0,3)
+  z-index:1;
+}
 
+.dropDown-content a{
+  color:white;
+  display:block;
+  text-align:left;
+}
+.dropDown-content a:hover{
+  background-color:#00FF7F;
+  color:orange;
+}
+.dopDown:hover .dropDown-content{
+  display:block;
+}
